@@ -1,0 +1,20 @@
+{
+  "name": "advent_of_code_2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepuzzle:one": "npx tsc ./day1/puzzle1.ts --outDir dist --module nodenext --moduleResolution nodenext",
+    "puzzle:one": "node dist/puzzle1.js",
+    "prepuzzle:two": "npx tsc ./day1/puzzle2.ts --outDir dist --module nodenext --moduleResolution nodenext",
+    "puzzle:two": "node dist/puzzle2.js"
+  },
+  "engines": {
+    "node": ">=v18.16.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
