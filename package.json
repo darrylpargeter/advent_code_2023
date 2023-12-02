@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepuzzle:one": "npx tsc ./day1/puzzle1.ts --outDir dist --module nodenext --moduleResolution nodenext",
-    "puzzle:one": "node dist/puzzle1.js",
-    "prepuzzle:two": "npx tsc ./day1/puzzle2.ts --outDir dist --module nodenext --moduleResolution nodenext",
-    "puzzle:two": "node dist/puzzle2.js"
+    "prepuzzle:one": "npx tsc ./day2/puzzle1.ts --outDir dist --module nodenext --moduleResolution nodenext",
+    "puzzle:one": "node dist/day2/puzzle1.js",
+    "prepuzzle:two": "npx tsc ./day2/puzzle2.ts --outDir dist --module nodenext --moduleResolution nodenext",
+    "puzzle:two": "node dist/day2/puzzle2.js"
   },
   "engines": {
     "node": ">=v18.16.0"

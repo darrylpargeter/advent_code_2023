@@ -13,3 +13,11 @@ export function head<T>(arr: T[]): T | undefined {
 export function tail<T>(arr: T[]):  T | undefined {
     return arr[arr.length - 1];
 } 
+
+export function get<T>(arr: T[], idx: number): T | null {
+    return arr?.[idx] ?? null;
+}
+
+export function isNull<T>(item: T): boolean {
+  return item === null;
+}
